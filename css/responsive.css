@@ -1,0 +1,179 @@
+@media (max-width:1120px)
+{
+	nav{
+		background:transparent !important;
+	}
+
+	.headerSection{
+		height:100% !important;
+	}
+	.headerSection:after{
+		position:relative;
+		bottom:0;
+	
+	}
+	.headerInfo{
+		float:left !important;
+		margin-top:50px !important;
+		padding-top:50px !important;
+		padding:20px !important;
+		width:40% !important;	
+	}
+	
+	.headerImage{
+		float:left !important;
+		margin:0px !important;
+		position:relative;
+		top:0px !important;
+		left:0px;
+		width:60% !important;
+	}
+	
+}
+
+@media (max-width:990px)
+{
+	nav{
+		background:transparent !important;
+	}
+
+	.headerSection{
+		height:100% !important;
+	}
+	.headerSection:after{
+		position:relative;
+		bottom:0;
+		
+
+	}
+	.headerInfo{
+		float:left !important;
+		margin-top:50px !important;
+		padding-top:50px !important;
+		padding:20px !important;
+		width:40% !important;	
+	}
+	
+	.headerImage{
+		float:left !important;
+		margin:0px !important;
+		position:relative;
+		top:0px !important;
+		left:0px;
+		width:60% !important;
+	}
+	.news img{
+		position:relative;
+		left:200px;
+		top:50px;
+	}
+	.carInfo div{
+		margin-top: 50px !important;
+	}
+
+	.carInfo div:nth-of-type(3)
+	{
+		position:relative;
+		left:100px !important;
+	
+	}
+	.carInfo div:nth-of-type(4)
+	{
+		position:relative;
+		left:100px !important;
+	
+	}
+}
+
+@media (max-width:760px)
+{
+	nav{
+		background:transparent !important;
+		width:100% !important;
+	}
+	nav ul li{
+		background:crimson !important;
+		text-align:center;
+	}
+	.headerInfo{
+		margin-top:100px !important;
+		padding-top:100px !important;
+		padding-right:100px !important;
+		width:90% !important;	
+	}
+	
+	.headerImage{
+		margin:0px !important;
+		position:relative;
+		top:-50px !important;
+		left:0px;
+		width:100% !important;
+	}
+	.news img{
+		position:relative;
+		left:100px;
+	}
+	.carInfo div:nth-of-type(3)
+	{
+		position:relative;
+		left:30px !important;
+	
+	}
+	.carInfo div:nth-of-type(4)
+	{
+		position:relative;
+		left:30px !important;
+	
+	}
+	
+}
+
+@media (max-width:650px)
+{
+	.headerSection{
+		height:100% !important;
+	}
+	.headerSection:after{
+		position:relative;
+		bottom:0;
+	
+
+	}
+	.headerInfo{
+		margin-left:0px !important;
+		margin-top:50px !important;
+		padding-top:50px !important;
+		overflow: hidden !important; 
+		box-sizing: border-box !important;
+		padding:20px !important;
+		width:90% !important;	
+	}
+		
+	
+	.headerImage{
+		margin:0px !important;
+		width:100% !important;
+	}
+	.news img{
+		position:relative;
+		left:0px;
+	}
+	.carInfo div:nth-of-type(3)
+	{
+		position:relative;
+		left:20px !important;
+	
+	}
+	.carInfo div:nth-of-type(4)
+	{
+		position:relative;
+		left:20px !important;
+	
+	}
+}
+@media(max-width: 420px)
+{
+	body{
+		overflow-x: hidden;
+	}
+}

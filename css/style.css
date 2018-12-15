@@ -1,0 +1,406 @@
+/* Using external fonts */
+@font-face{
+	font-family:poppins;		 
+	src : url(../fonts/Poppins.otf);
+}
+@font-face{
+	font-family:lobs;		 
+	src : url(../fonts/lobster.otf);
+}
+
+/* customizing scrollbar */
+
+::-webkit-scrollbar{
+	width:5px;
+}
+::-webkit-scrollbar-thumb{
+	background:crimson;
+}
+
+/* Setting poppins as defaut font */
+
+body{
+	font-family: poppins !important;
+}
+
+/* menu cutomization */
+
+.menu{
+	background:crimson !important;
+	color:white !important;
+	margin:0px !important;
+	width:100% !important;
+	height:80px;
+	padding: 20px;
+	border:0px !important;
+	box-sizing: border-box;
+
+}
+nav{
+	background:transparent !important;
+	color:white !important;
+	margin:0px !important;
+	width:100% !important;
+	height:80px;
+	padding: 20px;
+	border:0px !important;
+	box-sizing: border-box;
+}
+ul li a{
+	color:white !important;
+}
+ul li{
+	padding-right:5px !important;
+}
+ul li:hover a span:first-child{
+	border-top:1px solid white;
+}
+ul li:hover a span:last-child{
+	border-bottom:1px solid white;
+}
+.icon-bar{
+	color:white !important;
+}
+.navbar-toggle{
+	font-size:20px;
+	background:transparent !important;
+	border:0px !important;
+}
+.navbar-toggle:hover{
+	background:transparent !important;
+}
+.navbar-toggle:active{
+	background:transparent !important;
+}
+
+.navbar-brand{
+	color:white !important;
+}
+.logo{
+	font-family: poppins;
+	font-size:20px !important;
+}
+
+/* main header area */
+
+
+.headerSection{
+	background:linear-gradient(-100deg ,darkblue , crimson) !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	height:120% !important;
+	display:block !important;
+}
+.headerSection:after{
+	content: '';
+	display:block !important;
+	width:100% !important;
+	background-image:url(../images/wave.png) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:250px !important;
+}
+.headerSection h1{
+	font-size: 70px;
+	font-family: lobs;
+	font-weight: bolder;
+	color:gold;
+}
+.headerInfo {
+	padding-top:120px;
+	display:none;
+	color:white !important;
+	left:50px;
+}
+.headerImage {
+	padding-top:150px;
+	margin-left:50px;
+	color:white !important;
+	display: none;
+	width:700px !important;
+	height:100% !important;
+}
+.headerSocial{
+	font-size:25px;
+	position:relative;
+	left:20px;
+}
+.btn-head{
+	margin-top:px;
+	width:200px;
+	margin-bottom:100px;
+}
+
+.btn-head:after
+{
+	height:100% !important;
+	width:100% !important;
+	background:red !important;
+	content:'' !important;
+	display: block !important;
+	position:relative !important;
+}
+
+/* subscribe div and button */
+
+.subs{
+	height:40px;
+	margin-top:150px;
+	border:2px solid grey;
+	border-radius:0px;
+	width:60% !important;
+}
+.subsBtn{
+	height:40px;
+	border-radius:0px;
+	width:10% !important;
+}
+.contentBox{
+	display: none;
+	padding-top: 150px;
+}
+.carInfo
+{
+	margin-top:150px;
+	margin-bottom:50px;
+}
+
+/* news and updates area */
+
+.news{
+	display: none;
+	margin-top: 100px;
+	padding:100px;
+	background:crimson;
+	background-size:cover;
+	color:white;
+}
+
+/* Testimonial slider */
+
+.testi-slider
+{
+	display:none;
+	background:lightgrey;
+	padding-bottom:50px;
+}
+.testimonial{
+	background:white;
+	text-align:center;
+	padding:30px 30px 50px;
+	margin:0px 15px 100px;
+	position:relative;
+	margin-top:100px;
+}
+.testimonial:before,
+.testimonial:after{
+	content: '' !important;
+	border-top:40px solid white !important;
+	border-right:125px solid transparent !important;
+	position:absolute !important;
+	bottom:-40px !important;
+	left:0 !important;
+}
+
+.testimonial:after{
+	border-right:none !important;
+	border-left:125px solid transparent !important;
+	left:auto !important;
+	right:0 !important;
+}
+
+.testimonial .icon{
+	display:inline-block;
+	font-size:80px;
+	color:#f28a0b;
+	margin-bottom: 20px;
+	opacity: 0.5px !important;
+}
+
+.testimonial .description{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size:13px;
+}
+
+.testimonial .testimonial-content{
+	width:100%;
+	position:absolute;
+	left:0;
+}
+.testimonial .pic{
+	display:inline-block;
+	border:6px solid white;
+	width:100px;
+	border-radius: 50%;
+	box-shadow:0 0 4px 4px #f28a0b;
+	overflow: hidden;
+	z-index: 1;
+	position:relative;
+}
+
+.testimonial .pic img{
+	width:100%;
+ }
+ .testimonial .title{
+ 	color:white;
+ 	text-transform: capitalize;
+ 	font-size:15px;
+ }
+
+.owl-theme .owl-controls{
+	margin-top:60px !important;
+}
+.owl-theme .owl-controls span{
+	background:white !important;
+}
+
+/* Designing Footer */
+
+.footer{
+	border-top:1px solid grey;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.footer div ul{
+	list-style: none;
+	padding:0px;
+}
+.footer div ul li{
+	height:30px;
+	width:100%;
+}
+.footer div ul li a{
+	text-decoration: none;
+	color:black !important;	
+}
+.footer div ul li:hover a span:first-child{
+	border-top:1px solid crimson;
+}
+.footer div ul li:hover a span:last-child{
+	border-bottom:1px solid crimson;
+}
+html{
+	height:100%;
+	display: block;
+}
+.contentA9s{
+	width:100%;
+	height:100%;
+	display:inline-block;
+}
+
+/* Car Customizer */
+
+
+.customizer{
+	background-size:cover;
+	display: block;
+	height:100%;
+	width:100%;
+	padding:0px !important;
+	margin-top:50px;
+	overflow: hidden;
+}
+.customizer ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	mix-blend-mode: hue;
+}
+.customizer ul li{
+	width:20%;
+	height:50px;
+	float:left;
+}
+
+.customizer ul li:nth-of-type(1){
+	background:#99008E;
+}
+
+.customizer ul li:nth-of-type(2){
+	background:#01CB99;
+}
+.customizer ul li:nth-of-type(3){
+	background:darkblue;
+}
+.customizer ul li:nth-of-type(4){
+	background:#FF00B3;
+}
+.customizer ul li:nth-of-type(5){
+	background:#183B1D;
+}
+
+.customizer ul li:hover:nth-of-type(1){
+	box-shadow:0px 0px 0px 500px #99008E;
+}
+
+.customizer ul li:hover:nth-of-type(2){
+	box-shadow:0px 0px 0px 1500px #01CB99;
+}
+.customizer ul li:hover:nth-of-type(3){
+	box-shadow:0px 0px 0px 1500px darkblue;
+}
+.customizer ul li:hover:nth-of-type(4){
+	box-shadow:0px 0px 0px 1500px #FF00B3;
+}
+.customizer ul li:hover:nth-of-type(5){
+	box-shadow:0px 0px 0px 1500px #183B1D;
+}
+
+.contentA9s .container{
+	padding-top:80px;
+}
+
+/* specification area */
+
+.specs h3{
+	text-align: left;
+	margin-left: 40px;
+
+}
+.specs p{
+	text-align: left;
+	padding-left: 40px;
+}
+.specs h3{
+	font-family: lobs;
+}
+
+.specs ul{
+	list-style: none;
+	font-size:20px;
+}
+.specs ul li{
+	line-height:50px;
+	font-weight:bolder;
+}
+
+/* More Description div */
+
+.desc{
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+}
+.descContent{
+	padding-top: 25px;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+/* contact Page */
+
+
+.headerImage div input,textarea{
+	color:white !important;
+	border:1px solid white !important;
+	background:transparent !important;
+}
+
+
+/* buy form */
+
+.modal-body input,textarea{
+	border:	1px solid black !important;
+}
